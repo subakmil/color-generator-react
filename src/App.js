@@ -11,7 +11,7 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault();
     try {
-      let colors = new Values(color).all(10);
+      let colors = new Values(color).all(5);
       setList(colors);
     } catch (error) {
       setError(true);
